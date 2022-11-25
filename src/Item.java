@@ -1,4 +1,4 @@
-public class Item
+public abstract class Item
 {
     private String name;
     private ItemType type;
@@ -14,26 +14,6 @@ public class Item
     public String getName()
     {
         return name;
-    }
-    
-    public void setName(String name)
-    {
-        this.name = name;
-    }
-    
-    public ItemType getType()
-    {
-        return type;
-    }
-    
-    public void setType(ItemType type)
-    {
-        this.type = type;
-    }
-    
-    public void setPrice(double price)
-    {
-        this.price = price;
     }
     
     public double getBasePrice()
